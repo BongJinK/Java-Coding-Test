@@ -86,6 +86,7 @@ public class Sol_6_4949 {
             if (isCheck && st.isEmpty()) sb.append("yes").append("\n");
             else sb.append("no").append("\n");
         }
+        
         System.out.println(sb.toString());
         sc.close();
 
