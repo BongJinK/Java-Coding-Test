@@ -48,6 +48,31 @@ public class Sol_5_1158 {
         sc.close();
     }
 
+    /**
+     * Deque 버전
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        StringBuilder sb = new StringBuilder("<");
+        int n = Integer.parseInt(sc.next());
+        int k = Integer.parseInt(sc.next()); sc.nextLine();
+
+        Deque<Integer> deque = new ArrayDeque<>();
+        for (int i = 1; i <= n; i++) {
+            deque.offerLast(i);
+        }
+
+        while (!deque.isEmpty()) {
+            for (int i = 1; i < k; i++) {
+                deque.offerLast(deque.pollFirst());
+            }
+            sb.append(deque.pollFirst()).append(", ");
+        }
+        sb.setLength(sb.length()-2);
+        System.out.println(sb.append(">"));
+        sc.close();
+    }
+    */
+
     /*
 
     [1] [2] [3] [4] [5] [6] [7]
