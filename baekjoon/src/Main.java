@@ -1,19 +1,12 @@
 import java.util.*;
+import java.io.*;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        StringBuilder sb = new StringBuilder();
+    public static void main(String[] args) throws IOException  {
+        // Scanner sc = new Scanner(System.in);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
-        
-
-
-
-
-
-
-        System.out.println(sb);
-        sc.close();
+        System.out.println();
+        br.close();
     }
 }
