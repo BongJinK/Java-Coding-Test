@@ -1,6 +1,7 @@
 package Ex;
 
 import java.util.*;
+
 public class Marathon {
 
     public static void main(String[] args) {
@@ -52,27 +53,5 @@ public class Marathon {
 
         return answer;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
